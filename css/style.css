@@ -565,6 +565,12 @@ span {
   border-radius: 30px;
   overflow: hidden;
 }
+@media (max-width: 425px) {
+  .board {
+    width: 400px;
+    height: 400px;
+  }
+}
 
 .circle {
   background-color: black;
